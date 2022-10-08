@@ -40,4 +40,7 @@ target = input('To? ')
 
 path = find_shortest_path(source, target)
 
-print(path)
+if path is None:
+    print('No path exists')
+else:
+    print(path)
